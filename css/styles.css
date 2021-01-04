@@ -1,0 +1,317 @@
+
+/*COLOR PALETTE
+----------------
+Space Cadet Navy: #0B132B
+Independence Blue: #1C2541
+Heliotrope Gray: #3A506B
+Silver Pink: #5BC0BE
+Isabelline Cream: #6FFFE9
+ */
+
+/*Global Styles
+----------------
+*/
+
+html {
+
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+
+body{
+	background: #ede7eb;
+	margin: 0;
+	font-family: freight-display-pro, serif;
+	line-height: 150%;
+	font-size: 110%;
+	color: #332c2a;
+
+
+}
+
+h1, h2, h3{
+	font-weight: 900;
+	font-style: normal;
+}
+
+h1{
+	margin: 0;
+	text-align: center;
+	font-size: 300%%
+}
+
+h2{
+flex: 3 3 900px;
+margin: 0 0 10px 0;
+
+}
+
+h3{
+	font-size: 120%;
+}
+
+p{
+	font-style: normal:
+	font-weight: 400;
+}
+
+a{
+	color: #e29578;
+
+}
+
+h3 + p{
+	font-weight: 400;
+	font-style: italic;
+
+}
+
+h3 ~ p{
+	line-height: 75%;
+	font-size: 80%;
+}
+
+a:hover{
+	text-decoration: none;
+
+}
+
+a:active{
+
+}
+
+.social img{
+ 	width: 30%; 
+ 	height: 55%;
+	margin:10px 0 0 0;
+	paddin:0;
+
+}
+
+.mine img{
+	width: 400px;
+	height: 360px;
+	border-radius: 30px;
+}
+/*
+.mine{
+	padding: 13px;
+}*/
+
+
+.btn a{
+	/*color: #78290F;*/
+	color: #B94E27;
+	text-decoration: none;
+	background: #3FA2A0;
+	padding: 8px;
+	border-radius: 6px;
+	display: inline-block;
+
+}
+
+.btn a:hover{
+	background: rgba(255, 236, 209, .7)
+
+}
+
+.wrap{
+	max-width: 900px;
+	width: 85%;
+	margin:  0 auto;
+	padding: 60px 0;
+	border-bottom: 1px dotted #332c2a;
+
+}
+
+/* ABOUT
+---------
+*/
+
+header{
+	width: 100%;
+	position: sticky;
+	top: 0;
+	background: #ede7eb url("../images/blob22.png") no-repeat top left;
+	background-size: 30%;
+	font-size: 100%;
+
+}
+
+.about{
+	width: 600px;
+	text-align: center;
+	align-self: center;
+}
+
+header .wrap{
+		border-bottom: 0 dotted #332c2a;
+}
+
+
+
+/*PROJECTS
+-----------
+*/
+
+div.social{
+	display: grid;
+	grid-template-columns: 60px 1fr 80%;
+	margin: 0;
+}
+
+.projects{
+	background: #ede7eb;
+/*	border-bottom: 2px dotted #332c2a;
+*/
+
+/*	color: #4E3E65;
+*/}
+
+.projects ul{
+	text-align: left;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+/*	padding: 13px;
+*/	list-style-type: none;
+	padding-inline-start: 0px;
+	column-gap: 20px;
+
+}
+
+.project-items h3{
+	line-height: 100%
+	margin: 15px 0 0 0;
+
+}
+
+/*.projects .wrap{
+	padding: 60px 0 0 0;
+}
+*/
+.project-items .project1{
+	padding: 0 25px 0 0;
+
+}
+
+.project-items .project2{
+	padding: 0 0 0 20px;
+}
+
+.projects .wrap{
+		border-bottom: 0 dotted #332c2a;
+}
+
+
+
+
+/*WORK EXPERIENCE
+------------------
+*/
+
+.resume{
+	background: #ecf8f8;
+/*	border-bottom: 2px dotted #332c2a;
+*/
+}
+
+.job{
+	display: grid;
+	grid-template-columns: 1.2fr 2fr;
+	grid-template-rows: 40px 40px 40px;
+	column-gap: 20px;
+
+}
+.resume .social{
+/*	display: grid;
+*/grid-template-columns: 1fr 1fr 50%;
+
+}
+
+.job-details{
+	line-height: 0.5;
+
+}
+
+.job-description{
+
+}
+ .resume .social img{
+ 	width: 15%;
+ }
+
+.resume h3{
+	font-size: 90%;
+}
+
+/*WRITING
+-----------------
+*/
+.writing{
+	background: #ecf8f8;
+/*	border-bottom: 2px dotted #332c2a;
+*/
+}
+
+.writing .wrap{
+	overflow: hidden;
+}
+
+.writing-elements{
+	display: flex;
+	flex: 3 0 auto;
+	justify-content: space-between;
+	flex-wrap: nowrap;
+	flex-direction: : row;
+}
+
+.writing img{
+	margin-top: 30px;
+	width: 400px;
+	height: 310px;
+	border-radius: 0;
+
+}
+div.social{
+	height: 50%;
+}
+
+.writing-text{
+	margin-left: 30px
+}
+
+/*CONTACT INFO / SOCIAL MEDIA
+-------------------------------
+*/
+footer{
+	background: #ecf8f8;
+}
+
+
+.contact-list{
+	list-style-type: none;
+	padding: 0;
+	display: grid;
+	grid-template-columns: repeat(5, 1fr) 700px;
+   grid-auto-rows: minmax(100px, auto);
+   margin-top: 30px
+}
+
+footer .contact{
+	width: 80px;
+	height: 50px;
+}
+footer a{
+	padding: 0;
+}
+
+
+
+
+
+
+
+
