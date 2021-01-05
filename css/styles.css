@@ -14,7 +14,7 @@ html{
 	  font-size: 1.3vw;
 }
 body{
-	background: #ede7eb;
+	background: #ecf8f8;
 	margin: 0;
 	font-family: freight-display-pro, serif;
 	line-height: 150%;
@@ -224,17 +224,16 @@ div.social{
 	height: 50%;
 }
 
-.writing-text{
+article.writing-text{
 	width: 28vw;
-{
+}
+
 
 /*CONTACT INFO / SOCIAL MEDIA
 -------------------------------
 */
 
-{}
-
-section.contact-list.social{
+ .contact-list.social{
 	list-style-type: none;
 	padding: 0;
 	display: grid;
@@ -243,15 +242,15 @@ section.contact-list.social{
 
 }
 
-footer{
+/*.footer{
 	background: #ecf8f8;
-}
+}*/
 
-footer .contact{
-	width: 80px;
-	height: 50px;
+.footer .contact{
+	width: 4vw;
+	height: 3vw;
 }
-footer a{
+.footer a{
 	padding: 0;
 }
 
