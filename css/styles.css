@@ -237,7 +237,7 @@ article.writing-text{
 	list-style-type: none;
 	padding: 0;
 	display: grid;
-	grid-template-columns: repeat(5, 1fr);
+	grid-template-columns: repeat(5, 1fr) 80vw;
    grid-auto-rows: minmax(100px, auto);
 
 }
